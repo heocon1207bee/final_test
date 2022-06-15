@@ -5,10 +5,10 @@ import Form from "./Form";
 import Footer from "./Footer";
 import { Routes, Route } from "react-router-dom";
 import { useState, useEffect } from "react";
-import { FaDraftingCompass } from "react-icons/fa";
 import { initReactI18next, useTranslation } from 'react-i18next';
 import i18n from "i18next";
 import { Suspense } from "react";
+import { translationsEn, translationsVi } from "./language";
 
 export default function App() {
   return (
@@ -18,35 +18,6 @@ export default function App() {
       </Routes>
     </div>
   );
-}
-
-const translationsEn = {
-  taskLeft: 'You have {{count}} task left',
-  notFinished: 'Not finished only',
-  enterTask: 'Enter task...',
-  submit: 'Submit',
-  dublicated: 'Task is dublicated!!!',
-  inputEmpty: 'Input cannot be empty!!!',
-  madeByMindX: 'Made by MindX 🔥',
-  availableOn: 'Available on:',
-  dayleft: '{{day_left}} day left',
-  done: 'done',
-  notDone: 'not done',
-  delete: 'Delete',
-}
-const translationsVi = {
-  taskLeft: 'Bạn còn lại {{count}} nhiệm vụ',
-  notFinished: 'Hiện chưa hoàn thành',
-  enterTask: 'Nhập nhiệm vụ...',
-  submit: 'Thêm',
-  dublicated: 'Nhiệm vụ trùng lặp!!!',
-  inputEmpty: 'Không được để trống!!!',
-  madeByMindX: 'Được tạo bởi MindX 🔥',
-  availableOn: 'Khả dụng ở:',
-  dayleft: '{{day_left}} ngày nữa',
-  done: 'hoàn thành',
-  notDone: 'chưa hoàn thành',
-  delete: 'Xóa đi',
 }
 
 i18n

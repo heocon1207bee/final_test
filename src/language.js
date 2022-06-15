@@ -1,0 +1,28 @@
+export const translationsEn = {
+    taskLeft: 'You have {{count}} task left',
+    notFinished: 'Not finished only',
+    enterTask: 'Enter task...',
+    submit: 'Submit',
+    dublicated: 'Task is dublicated!!!',
+    inputEmpty: 'Input cannot be empty!!!',
+    madeByMindX: 'Made by MindX 🔥',
+    availableOn: 'Available on:',
+    dayleft: '{{day_left}} day left',
+    done: 'done',
+    notDone: 'not done',
+    delete: 'Delete',
+}
+export const translationsVi = {
+    taskLeft: 'Bạn còn lại {{count}} nhiệm vụ',
+    notFinished: 'Hiện chưa hoàn thành',
+    enterTask: 'Nhập nhiệm vụ...',
+    submit: 'Thêm',
+    dublicated: 'Nhiệm vụ trùng lặp!!!',
+    inputEmpty: 'Không được để trống!!!',
+    madeByMindX: 'Được tạo bởi MindX 🔥',
+    availableOn: 'Khả dụng ở:',
+    dayleft: '{{day_left}} ngày nữa',
+    done: 'hoàn thành',
+    notDone: 'chưa hoàn thành',
+    delete: 'Xóa đi',
+}
